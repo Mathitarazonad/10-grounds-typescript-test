@@ -31,7 +31,7 @@ The algorithm should print:
 As a test that is made with TypeScript, you should follow some steps to run this test:
 - Have installed **git** and **node** >= 18.17.0 in your machine. 
 - <code>git clone https://github.com/Mathitarazonad/10-grounds-typescript-test.git</code>
-- <code>cd ./10-grounds-typescript-test.git</code>
+- <code>cd ./10-grounds-typescript-test</code>
 - <code>npm install</code>
 - <code>npm run build</code>
 - <code>npm run start</code>
