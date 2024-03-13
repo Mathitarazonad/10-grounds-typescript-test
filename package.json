@@ -1,0 +1,27 @@
+{
+  "name": "10-grounds-typescript-test",
+  "version": "0.0.0",
+  "description": "A technical test made for 10grounds made with TypeScript",
+  "author": "Mathias Tarazona",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "~18",
+    "@typescript-eslint/eslint-plugin": "~6.15",
+    "@typescript-eslint/parser": "~6.15",
+    "eslint": "~8.56",
+    "eslint-config-prettier": "~9.1",
+    "ts-api-utils": "~1.0",
+    "typescript": "~5.3"
+  },
+  "scripts": {
+    "start": "node build/src/main.js",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json"
+  },
+  "dependencies": {
+    "tslib": "~2.6"
+  }
+}
