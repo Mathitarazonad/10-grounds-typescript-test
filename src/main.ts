@@ -1,4 +1,5 @@
 import { 
+  CLASS_TUBE_UNITS,
   DAILY_HOURS_CLASSROOM_USE,
   DAYS_PER_WEEK_CLASSROOM_USE,
   MIN_BROKEN_TUBES_TO_REPLACE,
@@ -14,7 +15,7 @@ const yearlyHoursOfUse = daysUsedInYear * DAILY_HOURS_CLASSROOM_USE
 
 let currentHour = 0
 let brokenTubesInYear = 0
-let moneySpentInYear = 0
+let moneySpentInYear = SINGLE_TUBE_COST * (TUBES_QUANTITY_PER_UNIT * CLASS_TUBE_UNITS) // Initial money spent with the first tubes
 const currentClassroomTubes = createClassroomTubeUnits()
 
 

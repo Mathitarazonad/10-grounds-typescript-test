@@ -14,7 +14,7 @@ export function rand (): number {
 }
 
 
-export const tubeShouldBreak = (singleTube: SingleTube): boolean => singleTube.hoursOfUse <= 0
+export const tubeShouldBreak = (singleTube: SingleTube): boolean => singleTube.hoursOfUse === 0
 
 export const createSingleTube = (): SingleTube => ({ hoursOfUse: rand(), broken: false })
 export const createSingleTubeUnit = (): SingleTube[] => new Array(TUBES_QUANTITY_PER_UNIT).fill(0).map(_ => createSingleTube())
